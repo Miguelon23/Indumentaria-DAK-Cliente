@@ -1,0 +1,154 @@
+/**index.php**/
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #EAECC6;
+}
+
+
+
+header {
+    background-color: #333;
+    color: #EAECC6;
+    padding: 20px;
+    text-align: center;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 20px;
+}
+
+li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.buscador {
+    display: flex;
+    margin-right: 10px;
+} 
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#search-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+
+.lupa {
+    font-size: 20px;
+}
+
+/* Estilos para el botón de filtros */
+#filtro-button {
+    background-color: #333;
+    color: #ccc;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Estilos para el contenedor de opciones de filtro */
+#opciones-filtro {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute; /* Cambiado a absolute */
+    z-index: 1000; /* Establecer un z-index alto */
+}
+
+/* Ajuste de las coordenadas de posicionamiento */
+#opciones-filtro {
+    top: 50px; /* Ajustar según sea necesario para que se superponga correctamente */
+    right: 10px; /* Ajustar según sea necesario para que se alinee correctamente */
+}
+
+
+.productos {
+    padding: 20px;
+}
+
+.productos h2 {
+    font-size: 24px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.card a {
+    text-decoration: none;
+    color: #333;
+    flex-grow: 1;
+}
+
+.card:hover {
+    background-color: #f0f0f0;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 4%;
+}
+
+/**footer**/
+
+footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#redes {
+    text-decoration: none;
+    color:#ccc;
+}
+
+#icon-container {
+    margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+}
+
+#icon-container img {
+    width: 50px; /* Ajusta el ancho de las imágenes según sea necesario */
+    height: 50px; /* Ajusta la altura de las imágenes según sea necesario */
+    margin: 0 10px; /* Ajusta el margen entre las imágenes */
+}
+

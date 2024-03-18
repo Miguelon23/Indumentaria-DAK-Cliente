@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Cliente 2 PaginaWeb/style.css"> 
-    <link rel="icon" href="Percha.png" />
+    <link rel="stylesheet" href="/DAK/style.css"> 
+    <link rel="icon" href="/DAK/Percha.png" />
     <title>DAK</title>
 </head>
 <body>
